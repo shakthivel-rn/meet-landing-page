@@ -113,6 +113,8 @@ header>img {
     display: flex;
     flex-direction: column;
     row-gap: 64px;
+    padding-top: var(--spacing-400);
+    padding-bottom: var(--spacing-800);
 }
 
 .number-line {
@@ -146,6 +148,88 @@ header>img {
 .image-grid img {
     height: 144px;
     border-radius: 0.5rem;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 32px;
+    max-width: 311px;
+    margin: 0 auto;
+}
+
+.main-text>div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.main-text>div>small {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 110%;
+    color: var(--cyan-600);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.main-text>div>h1 {
+    font-size: var(--spacing-400);
+    font-weight: 900;
+    line-height: 110%;
+    color: var(--slate-900);
+}
+
+.main-text>p {
+    font-size: var(--spacing-200);
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--slate-600);
+}
+
+.number--translate {
+    position: relative;
+    top: 25px;
+}
+
+.footer-content {
+    background-image: url("assets/mobile/image-footer.jpg");
+    background-size: cover;
+}
+
+.footer-overlay {
+    background-color: rgba(77, 151, 169, 0.9);
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: var(--spacing-300);
+    text-align: center;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: var(--spacing-800) var(--spacing-400);
+}
+
+.footer-text>h1 {
+    font-size: var(--spacing-400);
+    font-weight: 900;
+    line-height: 110%;
+    color: var(--white);
+}
+
+.footer-text>p {
+    font-size: var(--spacing-200);
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--white);
+}
+
+.button-purple>span {
+    color: var(--purple-300);
 }
 
 
